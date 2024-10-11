@@ -2366,7 +2366,26 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
   top: 49%;
 }
 
+.content img {
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.latest-posts-content img{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+}
+
 /*** Team ***/
+
+.team-member img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover; /* Ensures the image is cropped to fit the dimensions */
+}
+
 
 .team-members {
   margin-top: 30px;
